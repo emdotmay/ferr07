@@ -1,0 +1,114 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 12px
+	 Line-height: 1.6; 
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+	 Background: #F3EBE9
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+	background-color: #d6d6d6; 
+}
+
+#container > * {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+
+header { 
+	background-color: #999;
+	font-size: 50px;
+	color: #FFF;
+	width: 100%;
+}
+
+footer { 
+	background-color: #AAF;
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 15%;
+}
+
+.content {
+	background-color: aqua;
+	width: 100%;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	height: 100%;
+}
+
+div.column.one {
+	background: #FFFFCC;
+	height: 250px;
+	
+	
+}
+
+.column.one > div {
+	margin-left: 2.5px;
+	margin-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px	;
+	background: blue;
+	height: 240px;
+}
+
+.column.two {
+	background: #FFCCFF;
+	height: 250px;
+	
+}
+
+.column.two > div {
+	margin-left: 2.5px;
+	margin-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px	;
+	background: green;
+	height: 240px;
+
+}
+
+.column.three {
+	background: red;
+	height: 250px;
+	
+	
+}
+
+.column.three > div {
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	margin-top: 5px;
+	margin-bottom: 5px	;
+	background: #FFCCFF;
+	height: 240px;
+}
+
+.clear {
+	clear: both;
+}
+
+hr {
+	background: yellow;
+	border: 1px solid red;
+	height: 5px;
+}

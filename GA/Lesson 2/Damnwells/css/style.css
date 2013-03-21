@@ -1,0 +1,115 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 12px
+	 Line-height: 1.6; 
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+	 Background: #F3EBE9
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+font-family: "Courier New", Courier, monospace;
+background-color: white;
+background-image: url('http://illusionapparel.com/wp-content/uploads/2011/04/Grey-website-background.jpg');
+background-repeat:repeat;
+color: #E0E0E0;
+}
+
+#container {
+background-color: black;
+padding: 20px;
+opacity: 0.9;
+margin-left: 210px;
+
+}
+
+#header {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 36px;
+	line-height: 64px;
+	color: #E0E0E0;
+	display: block;
+	
+}
+
+#mainbanner {
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	display: inline-block;	
+
+}
+
+#mainbanner img.main {
+	display:inline;
+	float:center;
+	width: 100%;
+	
+}
+
+#maincontent img.logo {display:inline; float:left; margin:5px 15px 5px 0;}}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h4 {
+font-size: 30px;
+font-weight: bold;
+line-height: 20px;
+
+}
+
+p {
+font-size: 14px;
+line-height: 20px;
+}
+
+
+.sidebar {
+   width: 200px;
+   height: 700px;
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   opacity: 0.5;
+   background-color: #E31230;
+   padding-left: 5px;
+   padding-right: 5px;
+   text-align: center;
+
+}
+
+.sidebar p {
+	line-height: 40px;
+}
+
+a {
+	color: white;
+}
+
+a:visited {color:aqua;}
+
+input {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.copyright {
+	text-align: right;
+	font-size: 10px;
+}
+

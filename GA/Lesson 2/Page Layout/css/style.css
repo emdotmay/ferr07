@@ -1,0 +1,88 @@
+
+
+body {
+
+	font-family: Helvetica, Arial, san-serif; 
+	font-size: 12px;
+	color: black;
+	background-image: url(http://studio.generalassemb.ly/FERR7/Lesson%20Plans/Lesson2-3/2.Pagelayout/pagelayout-completed/images/pattern1.png);
+}
+
+#header {
+	color: #FFF;
+	background-color: #FF6666;
+	padding: 20px;
+	padding-top: 80px;
+	padding-bottom: 55px;
+	letter-spacing: -3px;
+
+}
+
+#header h1 {
+	color: #FFF;
+	font-size: 600%;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+#content {
+	color: black;
+	padding: 20px;
+	background-color: white;
+}
+
+#content h2{
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+
+}
+
+#content h3 {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+
+}
+
+#footer {
+	padding: 20px;
+
+}
+
+blockquote {
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 1.4;
+}
+
+#firstdivision {
+width: 700px;
+padding-left: 190px;
+padding-right: 190px;
+margin: 0 auto;
+margin-top: 20px;
+
+}
+
+#footer {
+	text-align: right;
+	padding: 20px;
+	color: black;
+	background-color: #FF6666;
+}
+
+.division{
+width:50%;
+height:100px;
+float:left;
+}
+

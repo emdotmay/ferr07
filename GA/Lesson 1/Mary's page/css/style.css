@@ -1,0 +1,55 @@
+/* 
+
+Project Name: Mary's page 
+Client: Mary
+Author: Mary Mei 
+Developed @ General Assembly in NYC
+
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* set up a background image */
+	
+	background-image: url('http://sunsite.berkeley.edu/FindingAids/dynaweb/calher/jvac/figures/j12EH-735A.jpg');
+	background-position: center;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+h1 {
+font-size: 60px;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+}
+
+h2 {
+font-size: 20px;
+font-style: italic;
+
+}
+
+#container {
+	width: 650px;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding: 15px;
+	border-color: white;
+	background-color: #F08080;
+
+}
+
+a:link {
+	text-decoration:none;
+	color: white;
+}
+
+img {
+	padding-right: 15px;
+}

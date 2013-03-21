@@ -1,0 +1,153 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 12px
+	 Line-height: 1.6; 
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+	 Background: #F3EBE9
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+#container > * {
+	margin: 0 auto;
+	background-color: white;
+	width: 925px;
+
+}
+
+h1 a {
+	background-image:url('../images/logo.png');
+	width: 216px;
+	height: 213px;
+	margin: auto;
+	display: block;
+	text-indent: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body {
+
+	background-color: #d6d6d6;
+	background-image:url('../images/background.jpg');
+	background-repeat:repeat-x;
+}
+
+
+h2 {
+	font-family: helvetica, arial sans-serif;
+	font-weight: bold;
+	line-height: 41px;
+	font-size: 20px;
+}
+
+a {
+	color: #FF6600;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	font-family: helvetica, arial sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}	
+
+.byline {
+	border-top: 1px dotted;
+	border-bottom: 1px solid;
+}
+
+.column {
+	float: left;
+	padding: 20px;
+	background-color: white;
+	
+}
+
+div.column.one {
+ 
+    width: 600px;
+    padding-right: 20px;
+    
+}
+
+.pic {
+	margin-bottom: 20px;
+}
+
+div.column.two {
+	
+    width: 220px;
+    margin-left: 20px;
+ 
+
+
+}
+
+.column {
+	float: left;
+	padding: 20px;
+	background-color: white;
+	
+}
+
+div.column.one {
+ 
+    width: 600px;
+    padding-right: 20px;
+
+
+}
+
+div.column.two {
+	
+    width: 225px;
+    margin-left: 20px;
+ 
+}
+
+#footer {
+	margin: 0 auto;
+	background-color: #d6d6d6;
+	height: 200px;
+	clear: both;
+}
+
+div.logo {
+text-align: center;
+}
+
+div.other {
+display: block;
+margin: 0 auto;
+width: 220px;
+}
+
+.side {
+	margin-bottom: 20px;
+}
+
+ul {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	line-height: 21px;
+	font-size: 11px;
+}
+
+ul > li.header {
+	text-transform: uppercase;	
+}
+
+img.center {   display: block;   margin-left: auto;   margin-right: auto; }

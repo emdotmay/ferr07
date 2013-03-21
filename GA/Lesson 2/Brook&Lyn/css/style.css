@@ -1,0 +1,132 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 12px
+	 Line-height: 1.6; 
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+	 Background: #F3EBE9
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+font-family: "Times New Roman", serif;
+background-color: rgb(243, 235, 233);;
+color: rgb(101, 101, 101);;
+}
+
+
+
+#container {
+background-color: white;
+padding: 20px;
+margin-bottom: 0px;
+margin-left: 79px;
+margin-right: 71px;
+margin-top: 0px;
+
+
+}
+
+#mainbanner {
+	border-color: rgb(204, 204, 204);
+	border-style: solid;
+	border-width: 5px;
+	color: rgb(101, 101, 101);
+display: inline-block;	
+}
+
+#header {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 64px;
+	color: rgb(101, 101, 101);
+	display: block;
+	text-transform: uppercase;
+	height: 64px;
+	width: 960px;
+	margin-bottom: 26.799999237060547px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 26.799999237060547px;
+	
+}
+
+h4 {
+font-size: 32px;
+font-weight: bold;
+height: 51px;
+line-height: 51px;
+margin-bottom: 26.559999465942383px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 26.559999465942383px;
+
+}
+
+p {
+font-size: 14px;
+height: 44px;
+line-height: 22px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+width: 960px;
+}
+
+#maincontent {
+	font-size: 14px;
+height: 185.546875px;
+line-height: 22px;
+width: 960px;
+}
+
+#press {
+height: 51px;
+line-height: 51px;
+margin-bottom: 26.559999465942383px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 26.559999465942383px;
+width: 960px;
+}
+
+.presslogo {
+border-bottom-color: rgb(204, 204, 204);
+border-bottom-style: solid;
+border-bottom-width: 5px;
+border-left-color: rgb(204, 204, 204);
+border-left-style: solid;
+border-left-width: 5px;
+border-right-color: rgb(204, 204, 204);
+border-right-style: solid;
+border-right-width: 5px;
+border-top-color: rgb(204, 204, 204);
+border-top-style: solid;
+border-top-width: 5px;
+color: rgb(101, 101, 101);
+display: inline-block;
+}
+
+#footer {
+width: 960px;
+height:72px;
+padding: 15px;
+padding-right: 20px;
+line-height: 22px;
+text-align: right;
+display: block;
+}
+
+.presslogo:hover {
+border: solid 5px #656565;
+}
