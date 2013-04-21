@@ -1,0 +1,18 @@
+h1 {
+	text-transform: uppercase;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 15px;
+}
+
+div {
+	background-image: url(http://i.imgur.com/lFOJeFT.png); 
+	display:block; 
+	height: 616px; 
+	width: 420;
+}

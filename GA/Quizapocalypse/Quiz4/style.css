@@ -1,0 +1,24 @@
+header {
+	margin: 0;
+	text-align: center;
+	background-color: yellow;
+
+
+}
+.column.left {
+	float: left;
+	width: 50%;
+	background-color: red;
+}
+
+.column.right {
+	background-color: green;
+}
+
+footer {
+	margin: 0;
+	text-align: center;
+	background-color: blue;
+
+
+}

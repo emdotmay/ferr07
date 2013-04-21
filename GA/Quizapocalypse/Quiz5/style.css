@@ -1,0 +1,32 @@
+header {
+	margin: 0;
+	text-align: center;
+	background-color: yellow;
+
+
+}
+.column.left {
+	float: left;
+	width: 33.33%;
+	background-color: red;
+}
+
+.column.middle {
+	float: left;
+	background-color: green;
+	width: 33.33%;
+}
+
+.column.right {
+	background-color: aqua;
+	width: 33.33%;
+	float: left;
+}
+
+footer {
+	margin: 0;
+	text-align: center;
+	background-color: blue;
+
+
+}

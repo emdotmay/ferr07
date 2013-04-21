@@ -1,0 +1,23 @@
+div {
+	position: absolute;
+}
+
+div#box {
+	background-color: purple;
+	height: 100px;
+	width: 100px;
+
+}
+
+div.circle {
+	background-color: red;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.circle:hover {
+	background-color: blue;
+};
