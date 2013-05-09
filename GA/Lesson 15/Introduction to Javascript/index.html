@@ -1,0 +1,44 @@
+
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <title>09 Introducing Javascript</title>
+</head>
+<body>
+    
+<h1>09 Introducing Javascript</h1>
+<p>Using only javascript to change the styles on the elements below.</p>
+<hr>
+<span class="white-text">This text should be white, and my background blue</span>
+
+<div id="top-right">This element should have a grey background and on the top right of the page.</div>
+
+<footer>I should have a 1 pixel black border and be fixed to the bottom of the window</footer> 
+
+<script>
+//Make sure to include jQuery above this.
+
+$('.white-text').css({
+	'color': 'white',
+	'background-color': 'blue'
+});
+
+$('#top-right').css({
+	'background-color': 'grey',
+	'position': 'absolute',
+	'top': '0px',
+	'right': '0px'
+});
+
+$('footer').css({
+	'border-style': 'solid',
+	'border-width': '1px',
+	'border-color': 'black',
+	'position': 'fixed',
+	'bottom': '0px'
+});
+
+</script>
+
+</body>
+</html>

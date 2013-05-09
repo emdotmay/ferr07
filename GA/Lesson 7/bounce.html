@@ -70,10 +70,30 @@
         }
       );
     }
+
+    var steps = [
+      [0,100],
+      [100,100],
+      [100,0],
+      [0,0],
+    ];
+
+    var step = 0;
+
+    var nextStep = function() {
+      if (step >= steps.length) {
+        step = 0;
+    }
+    var pos = steps[step];
     
-    moveToPosition(100,100,function(){
-      moveToPosition(0,0);
-    });
+    moveToPosition(pos[0],pos[1],function(){
+      step++;
+      nextStep();
+     });
+  
+  };
+
+  nextStep();
   
   })();
 </script>
